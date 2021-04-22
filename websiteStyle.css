@@ -1,0 +1,19 @@
+h2,h4{
+	font-family:"Rock Salt", cursive;
+}
+p,ul{
+	font-family:"Shadows Into Light Two", monospace;
+}
+.gallery{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+	padding-top:10px;
+}
+@media(min-width:600px){
+	.gallery{
+		flex-direction:row;
+		justify-content:center;
+	}	
+}
