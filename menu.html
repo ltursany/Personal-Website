@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Menu</title>
+		<link rel="stylesheet" type="text/css" href="websiteStyle.css" />
 		<style>
 			.flexbox{
 				display:flex;
@@ -10,9 +11,17 @@
 				align-items:center;
 				font-family:"Shadows Into Light Two", monospace;
 			}
+			.flex {
+				margin-top:10px;
+			}
 		</style>
 	</head>
 	<body>
+		<header class="header">
+				<div class="logo"><img src="images/Blackpink-Logo.png" alt="Blackpink logo" width="200px"/></div>
+				<div class="menu"><a href="menu.html"><img width="50px" src="images/BPlogo_pink.png" alt="BP logo for menu" /></a></div>
+		</header>
+		
 		<div class="flex">
 		<div class="flexbox">
 			<div><a href="home.html" target="_blank">Blackpink</a></div>
@@ -23,6 +32,12 @@
 			<div><a href="concerts.html" target="_blank">Concerts</a></div>
 			<div><a href="tours.html" target="_blank">Tours</a></div>
 		</div>
+		</div>
+		
+		<div>
+			<footer class="copyright">
+				Copyright &copy YG Entertainment
+			</footer>
 		</div>
 	</body>
 </html>

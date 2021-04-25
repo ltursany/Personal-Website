@@ -17,3 +17,10 @@ p,ul{
 		justify-content:center;
 	}	
 }
+.copyright{
+	float:right;
+}
+.header{
+	display:flex;
+	background-color:black;
+}
