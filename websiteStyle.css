@@ -4,6 +4,25 @@ h2,h4{
 p,ul{
 	font-family:"Shadows Into Light Two", monospace;
 }
+body{
+	margin:0px;
+}
+.header{
+	align-items:center;
+	display:flex;
+	background-color:black;
+}
+.menu{
+	position:absolute;
+	right:10px;
+}
+.main{
+	background-image:linear-gradient(black, #F55B8A);
+}
+.name{
+	text-align:center;
+	color:#F55B8A;
+}
 .gallery{
 	display:flex;
 	align-items:center;
@@ -18,25 +37,21 @@ p,ul{
 		justify-content:center;
 	}	
 }
-.footer{
-	float:right;
-	position:relative;
-	bottom:-380px;
-}
-.header{
-	display:flex;
-	background-color:black;
-}
 .groupSocialMedia{
 	background-color:#F55B8A;
 	float:left;
 	text-align:center;
 }
-.groupSocialMedia .logo2 {
-	width:50px;
-}
 .groupSocialMedia .listGSM {
 	list-style:none;
 	margin:0px;
 	padding:0px;
+}
+.groupSocialMedia .logo2 {
+	width:50px;
+}
+.footer{
+	float:right;
+	position:relative;
+	bottom:-380px;
 }
