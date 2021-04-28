@@ -4,14 +4,26 @@
 		<title>Blackpink!</title>
 		<link rel="stylesheet" type="text/css" href="websiteStyle.css" />
 		<style>
-			
+			.videos{
+				display:flex;
+				text-align:center;
+				flex-direction:column;
+				flex-wrap:wrap;
+				display:inline-block;
+			}
+			@media(min-width:600px){
+				.videos{
+					flex-direction:row;
+					justify-content:center;
+				}
+			}
 		</style>
 	<head>
 	
 	<body>
 		<header class="header">
-				<div class="logo"><img src="images/Blackpink-Logo.png" alt="Blackpink logo" width="200px"/></div>
-				<div class="menu"><a href="menu.html"><img width="50px" src="images/BPlogo_pink.png" alt="BP logo for menu" /></a></div>
+			<div class="logo"><img width="200px" src="images/Blackpink-Logo.png" alt="Blackpink logo" /></div>
+			<div class="menu"><a href="menu.html"><img width="50px" src="images/BPlogo_pink.png" alt="BP logo for menu" /></a></div>
 		</header>
 		
 		<div class="main">
@@ -31,9 +43,13 @@
 					<p>On May 28, 2020 Lady Gaga released "Sour Candy" with Blackpink. "How You Like That" was released as a single on June 26, 2020. On August 28, they released "Ice Cream" as a collaboration with Selena Gomez. They released their first Korean studio album The Album on October 2, 2020 which constisted of "How You Like That", "Ice Cream (with Selena Gomez)", "Pretty Savage", "Bet You Wanna (feat. Cardi B)", "Lovesick Girls", "Crazy Over You", "Love To Hate Me", and "You Never Know", with "Lovesick Girls" being the title track. They released a documentary film "Blackpink: Light Up the Sky" on Netflix on October 14.</p>
 					<p>Ros&eacute made her solo debut on March 12, 2021 with her ablum -R- which consisted of "Gone" and "On the Ground".</p>
 				</div>
+				<div class="videos">
+					<br /><h4>Blackpink most recent music release:</h4><br />
+					<p><iframe class="video" width="400px" height="400px" src="https://www.youtube.com/embed/CKZvWhCqx1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="video" width="400px" height="400px" src="https://www.youtube.com/embed/K9_VFxzCuQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+				</div>
 			</section>
 		</div>
-		
 		<div class="groupSocialMedia">
 			<ul class="listGSM">
 				<li><a href="https://www.instagram.com/blackpinkofficial/?hl=en" target="_blank"><img class="logo2" alt="Instagram logo" src="images/InstaIcon.png"></a></li>
