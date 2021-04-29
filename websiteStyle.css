@@ -40,6 +40,7 @@ p,ul{
 .groupSocialMedia{
 	text-align:center;
 	display:flex;
+	float:left;
 }
 .groupSocialMedia .listGSM {
 	list-style:none;
@@ -56,4 +57,12 @@ p,ul{
 	float:right;
 	position:relative;
 	bottom:-380px;
+}
+.logo3{
+	width:50px;
+}
+.memberSM{
+	text-align:center;
+	display:flex;
+	align-items:center;
 }
