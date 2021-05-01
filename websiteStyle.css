@@ -37,32 +37,27 @@ p,ul{
 		justify-content:center;
 	}	
 }
-.groupSocialMedia{
-	text-align:center;
-	display:flex;
-	float:left;
-}
-.groupSocialMedia .listGSM {
-	list-style:none;
-	margin:0px;
-	padding:0px;
-	position:absolute;
-	left:0px;
-	background-color:#F55B8A;
-}
-.groupSocialMedia .logo2 {
-	width:50px;
-}
-.footer{
-	float:right;
-	position:relative;
-	bottom:-380px;
-}
 .logo3{
 	width:50px;
 }
 .memberSM{
-	text-align:center;
 	display:flex;
-	align-items:center;
+	flex-direction:row;
+	justify-content:center;
+}
+.footer{
+	display:flex;
+}
+.socialMedia{
+	display:flex;
+	flex-direction:row;
+	float:left;
+}
+.copyright{
+	float:left;
+}
+@media(min-width:600px){
+	.copyright{
+		float:right;
+	}
 }
