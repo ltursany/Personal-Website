@@ -53,11 +53,3 @@ p,ul{
 	flex-direction:row;
 	float:left;
 }
-.copyright{
-	float:left;
-}
-@media(min-width:600px){
-	.copyright{
-		float:right;
-	}
-}
