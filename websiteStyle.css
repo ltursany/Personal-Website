@@ -47,9 +47,18 @@ p,ul{
 }
 .footer{
 	display:flex;
+	flex-direction:row;
 }
 .socialMedia{
 	display:flex;
 	flex-direction:row;
+}
+.copyright{
 	float:left;
+}
+@media(min-width:600px){
+	.copyright{
+		position:absolute;
+		right:10px;
+	}	
 }
