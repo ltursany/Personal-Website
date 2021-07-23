@@ -18,6 +18,7 @@ p,ul{
 }
 .main{
 	background-image:linear-gradient(black, #F55B8A);
+	text-align:center;
 }
 .name{
 	text-align:center;
@@ -44,6 +45,9 @@ p,ul{
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
+}
+ul{
+	list-style-position: inside;
 }
 .footer{
 	display:flex;
