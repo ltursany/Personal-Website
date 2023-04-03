@@ -15,12 +15,10 @@ p,ul{
 .menu{
 	position:absolute;
 	right:10px;
-	padding:20px;
 }
 .main{
 	background-image:linear-gradient(black, #F55B8A);
 	text-align:center;
-	padding:20px;
 }
 .name{
 	text-align:center;
@@ -54,7 +52,6 @@ ul{
 .footer{
 	display:flex;
 	flex-direction:row;
-	padding:20px;
 }
 .socialMedia{
 	display:flex;
