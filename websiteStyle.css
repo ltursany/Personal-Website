@@ -24,6 +24,10 @@ p,ul{
 	text-align:center;
 	color:#F55B8A;
 }
+.name2{
+	text-align:center;
+	color:black;
+}
 .gallery{
 	display:flex;
 	align-items:center;
